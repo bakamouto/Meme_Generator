@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1133</width>
+    <height>821</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Redactor</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #000000</string>
+  </property>
+  <widget class="QLabel" name="placeholder">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>800</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0, 0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saving">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>769</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffffff</string>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>20</y>
+     <width>291</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffffff</string>
+   </property>
+   <property name="text">
+    <string>go back</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="texts">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>220</y>
+     <width>291</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffffff</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_text">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>170</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffffff</string>
+   </property>
+   <property name="text">
+    <string>add text</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>100</y>
+     <width>291</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffffff</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>350</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffffff</string>
+   </property>
+   <property name="text">
+    <string>size:</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="size_">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>350</y>
+     <width>42</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffffff</string>
+   </property>
+   <property name="value">
+    <number>16</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="color">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>350</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffffff</string>
+   </property>
+   <property name="text">
+    <string>choose color</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>710</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffffff</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>680</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffffff</string>
+   </property>
+   <property name="text">
+    <string>file name:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>4</y>
+     <width>812</width>
+     <height>812</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">backround-color: rgba(0,0,0,0); border: 6px solid  white</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>410</y>
+     <width>291</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #ffffff</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;-you cannot add two identical texts (a tip: use spaces ;))&lt;/p&gt;&lt;p&gt;-the image is always saved with the ratio it originally had and the max side is 800px, so anything outside the white box will be cropped out&lt;/p&gt;&lt;p&gt;-it is saved in &amp;quot;your memes&amp;quot; folder&lt;/p&gt;&lt;p&gt;-if it has a name identical to a file that is already in this folder it will be replaced, so don't loose your memes!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>placeholder</zorder>
+  <zorder>saving</zorder>
+  <zorder>back</zorder>
+  <zorder>texts</zorder>
+  <zorder>add_text</zorder>
+  <zorder>text</zorder>
+  <zorder>label</zorder>
+  <zorder>size_</zorder>
+  <zorder>color</zorder>
+  <zorder>name</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_4</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
